@@ -1,0 +1,92 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Snippets</PackageName>
+      <Author>RJ</Author>
+      <Version>1.0</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>Overrides the RTE commands JS file
+
+You might need to modify the web.config
+  &lt;pages validateRequest="false" enableEventValidation="false"&gt;</Readme>
+      <Publisher>Sitecore UK</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/layout/Renderings/Modules/Snippets/{4E1367FE-5C8A-4A3E-8ED7-A7B70C9256BA}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Modules/Snippets/Snippet/{F2401E37-EE82-4D24-81F7-2848A0CE184C}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Modules/Snippets/{DE18E54C-2B4C-42DB-BDFB-1F4C24ABC493}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Modules/Snippets/SnippetDialog/{CFA72CC8-3160-4CB3-B4D5-7B9494095D2B}/invariant/0</x-item>
+        <x-item>/core/sitecore/layout/Layouts/Modules/Snippets/SnippetDialog/{D5A1C5EB-9CCD-4BCC-99CB-B5E88EBAF244}/invariant/0</x-item>
+        <x-item>/core/sitecore/layout/Layouts/Modules/Snippets/{2379FB9B-B9FA-4ADA-8F40-6860F570803F}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Settings/Html Editor Profiles/Rich Text Default/Toolbar 1/Insert snippet/{76C84BD5-8C8D-42B9-8CAB-2A8ABAE58733}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Settings/Html Editor Profiles/Rich Text Full/Toolbar 1/Insert snippet/{A07C4A5C-6DCA-4CFC-8CF1-3C33011FFFD2}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Common Field Buttons/Show Referrers/{AF7A76CC-45AE-40D9-8986-2F584C7B9465}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/Sitecore.Labs.Snippets.dll</x-item>
+        <x-item>/sitecore modules/Shell/Snippets</x-item>
+        <x-item>/sitecore modules/Shell/Snippets/ShowReferrers.xml</x-item>
+        <x-item>/sitecore modules/Shell/Snippets/SnippetDialog.js</x-item>
+        <x-item>/sitecore modules/Shell/Snippets/SnippetDialog.xml</x-item>
+        <x-item>/sitecore/shell/Controls/Rich Text Editor/RichText Commands.js</x-item>
+        <x-item>/xsl/Snippet.xslt</x-item>
+        <x-item>/App_Config/Include/Sitecore.Labs.Snippets.config</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
