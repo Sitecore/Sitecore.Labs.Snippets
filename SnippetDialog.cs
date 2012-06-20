@@ -36,7 +36,7 @@ namespace Sitecore.Labs.Snippets
 
             if (WebUtil.GetQueryString("mode") == "rte")
             {
-                var path = WebUtil.GetQueryString("path");
+                var path = WebUtil.GetQueryString("path",DataContext.Root);
                 var fields = WebUtil.GetQueryString("fields");
                 if (!string.IsNullOrEmpty(path))
                 {
@@ -60,7 +60,7 @@ namespace Sitecore.Labs.Snippets
             {
                 var border = new GridPanel()
                 {
-                    Width = Unit.Percentage(100),
+                    Width = Unit.Percentage(90),
                     Columns = 2
                 };
                 var checkbox = new Checkbox()
@@ -76,7 +76,7 @@ namespace Sitecore.Labs.Snippets
                     {
                         ID = checkbox.ID.Replace("cb","ta"),
                         Rows = 5,
-                        Cols = 32,
+                        Cols = 28,
                         Value = field.Value,
                     }
                     );

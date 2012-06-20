@@ -3,7 +3,7 @@
     <metadata>
       <PackageName>Snippets</PackageName>
       <Author>RJ</Author>
-      <Version>1.0</Version>
+      <Version>1.1</Version>
       <Revision />
       <License />
       <Comment> - Allows to insert snippets from any single-line, multiline or Rich Text field into another Rich Text field. The link is kept by adding a &lt;span&gt; tag with attributes that point to the original item/field. You can also insert a reference to a field as a presentation component (rendering called snippet) which again receives a reference to an item an a field.

@@ -1,13 +1,17 @@
 SNIPPETS
 ========
 
-Latest update: 31/05/2012
+Latest update: 20/06/2012
 
 by RJ
 
 ========
 
 Release Log
+
+v.1.1
+	- FIXED: Chrome support
+	- Improved size of dialog so it does not have scrollbars
 
 v.1.0 
 
@@ -18,7 +22,6 @@ v.1.0
 		+ the subtree where the user is able to select the source item/field (so you could make it point to a "dictionary of snippets" section)
 		+ how content is displayed in the live site. By default it will check the source content every time it renders the field, this is not a problem if used with HTML caching. However you can also disable this functionality, then it will not do any replacements, will show the content at the last time of publishing and not remove the itemid/field attributes from the <span> tag.
 
-Known issues:
-	- IE only - the pop-up that allows to select the source item/field does not work yet in Chrome
+Known issues:	
 	- You need to add   <pages validateRequest="false" enableEventValidation="false"> to the web.config
 

@@ -7,24 +7,14 @@
             <script Type="text/javascript" Language="javascript" Src="/sitecore%20modules/shell/Snippets/SnippetDialog.js">.</script>
 
             <CodeBeside Type="Sitecore.Labs.Snippets.SnippetDialog,Sitecore.Labs.Snippets"/>
-
-           
-
-                <GridPanel Width="100%" Height="100%" Style="table-layout:fixed" Columns="2" CellPadding="2" >
-                    <Scrollbox ID="Items" Height="100%" Class="scScrollbox scFixSize scFixSize4" Background="white" Border="1px inset" Padding="0px" GridPanel.Height="100%">
-                        <TreeviewEx ID="Treeview" DataContext="DataContext" ShowRoot="true" DblClick="OK_Click" Click="TreeViewClick" ContextMenu='Treeview.GetContextMenu("contextmenu")'/>
-
-                        <DataContext ID="DataContext" DataViewName="Master"/>
-                    </Scrollbox>
-                    
-                        <Scrollbox ID="Fields" Height="100%" Class="scScrollbox scFixSize scFixSize4" Background="white" Border="1px inset" Padding="0px" GridPanel.Height="100%">
-                           
-                            
-                        </Scrollbox>
-                        
+            <GridPanel Width="100%" Height="100%" Style="table-layout:fixed" Columns="2" CellPadding="2" >
+                <Scrollbox ID="Items" Height="100%" Class="scScrollbox scFixSize scFixSize4" Background="white" Border="1px inset" Padding="0px" GridPanel.Height="100%">
+                    <TreeviewEx ID="Treeview" DataContext="DataContext" ShowRoot="true" DblClick="OK_Click" Click="TreeViewClick" ContextMenu='Treeview.GetContextMenu("contextmenu")'/>
+                    <DataContext ID="DataContext" DataViewName="Master"/>
+                </Scrollbox>
+                <Scrollbox ID="Fields" Height="100%" Class="scScrollbox scFixSize4" Background="white" Border="1px inset" Padding="0px" GridPanel.Height="100%">
+                </Scrollbox>
             </GridPanel>
-
         </FormDialog>
-
     </SnippetDialog>
 </control>
