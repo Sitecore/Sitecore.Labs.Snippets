@@ -76,7 +76,7 @@ namespace Sitecore.Labs.Snippets
                     {
                         ID = checkbox.ID.Replace("cb","ta"),
                         Rows = 5,
-                        Cols = 28,
+                        Cols = 27,
                         Value = field.Value,
                     }
                     );

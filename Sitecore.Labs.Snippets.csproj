@@ -73,14 +73,14 @@
     <Compile Include="SnippetDialog.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sitecore modules\Shell\ShowReferrers.xml">
+    <Content Include="sitecore modules\Shell\Snippets\ShowReferrers.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="sitecore modules\Shell\SnippetDialog.js">
+    <Content Include="sitecore modules\Shell\Snippets\SnippetDialog.js">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="sitecore modules\Shell\SnippetDialog.xml">
+    <Content Include="sitecore modules\Shell\Snippets\SnippetDialog.xml">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
