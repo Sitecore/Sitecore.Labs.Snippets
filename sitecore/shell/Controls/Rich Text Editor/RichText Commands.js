@@ -19,7 +19,7 @@ RadEditorCommandList["InsertCustomSnippet"] = function (commandname, editor, too
     editor.showExternalDialog(
     url,
     null, //argument
-    550,
+    575,
     400,
     scInsertSnippetCallBack, //callback
     null, // callback args
